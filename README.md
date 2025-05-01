@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SalesRank.AI
 
-## Getting Started
+A modern frontend project built with **Next.js 15**, **React 19**, **TailwindCSS 4**, and **DaisyUI**.  
+This project is currently deployed at [front-job.vercel.app](https://front-job.vercel.app/).
 
-First, run the development server:
+---
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Configuration](#configuration)
+- [Examples](#examples)
+- [Troubleshooting](#troubleshooting)
+- [Contributors](#contributors)
+- [License](#license)
+
+---
+
+## Introduction
+
+**Front-Job** is a web project designed to leverage the latest technologies in the React and Next.js ecosystems. It uses TailwindCSS and DaisyUI for styling, Heroicons and React Icons for visuals, and Swiper for building responsive, touch-friendly sliders.
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/istiak19/SalesRank
+   cd SalesRank
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+---
+
+## Usage
+
+### Development
+
+Start the development server with:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access it locally at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build for production:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+# or
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Linting
 
-## Deploy on Vercel
+Run ESLint to analyze and fix code:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run lint
+# or
+yarn lint
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Features
+
+- ✨ Built with **Next.js 15** and **React 19**
+- 🎨 Styled using **TailwindCSS 4** and **DaisyUI**
+- 🧩 Icon libraries via **Heroicons** and **React Icons**
+- 🏄 Smooth, responsive carousels with **Swiper**
+- 🚀 Ready for deployment with **Vercel**
+
+---
+
+## Dependencies
+
+**Core Dependencies:**
+- `next` (v15.3.1)
+- `react` (v19.0.0)
+- `react-dom` (v19.0.0)
+- `@heroicons/react` (v2.2.0)
+- `daisyui` (v5.0.34)
+- `react-icons` (v5.5.0)
+- `swiper` (v11.2.6)
+
+**Dev Dependencies:**
+- `eslint`
+- `@eslint/eslintrc`
+- `eslint-config-next`
+- `tailwindcss`
+- `@tailwindcss/postcss`
+
+---
+
+## Configuration
+
+This project uses:
+
+- **Turbopack** during development (`next dev --turbopack`) for faster builds
+- **ESLint** for code linting
+- **TailwindCSS** with **PostCSS** for styling
+
+Ensure your environment is Node.js 18+ compatible for the best experience.
+
+---
+
+## Examples
+
+Visit the live demo: [front-job.vercel.app](https://front-job.vercel.app/)
